@@ -20,7 +20,7 @@ import com.thiagobrito.authenticationapi.services.ProductService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("product")
 public class ProductController {
 
     private ProductService productService;
